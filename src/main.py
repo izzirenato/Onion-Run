@@ -495,6 +495,11 @@ class GameManager:
         sys.exit()
 
 
-if __name__ == "__main__":
+def main():
+    """Main entry point for the game"""
     game = GameManager()
     game.run()
+
+
+if __name__ == "__main__":
+    main()
